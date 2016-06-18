@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Candy Store - home</title>
+<link rel="stylesheet" type="text/css" href="CandyStore.css">
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+</head>
+
+<body>
+<h1 id="headline">Welcome to the Candy Store!</h1>
+
+<table id="prod-table">
+	<th>Here are our sweet offer</th>
+		<tr class="prod-list">
+			<td>
+				<p><a href="CandyStoreProdDetail1.html">Candy 1</a><br>
+				<span id="prod1"></span>&nbsp;per candy</p>
+				<div id="quantity-alert" ></div>
+				<p><input id="qtyFlat1" type="text" placeholder="1" class="qty" style="width: 30px;" maxlength="4" onblur="subTot()" onclick="clearSub()" onkeypress=""/></p>
+				<p>Sub total:<br>£&nbsp;<span id="prod1-subtotal"></span></p>
+			</td>
+			
+			
+			<td>
+				<p><a href="#">Candy 2<br><div id="prod2" ></div><br>
+				per candy</p>
+				<div id="quantity-alert" ></div>
+				<input id="qtyFlat2" type="text" placeholder="1" class="qty" style="width: 30px;" maxlength="4" onclick="" /></td>
+		</tr>
+		
+		<tr>
+		<td id="add-bskt1"><a href="basket.html">[Add to Basket]</a></td>
+		<td id="add-bskt2"><a href="basket.html">[Add to Basket]</a></td>
+		</tr>
+</table>
+
+
+
+
+
+
+
+
+<p id="footerline">Footer text blah blah. Copyright Candy Store Ltd.</p>
+ <script src="CandyStore.js"></script>
+</body>
+
+</html>
+
+<!--onkeypress="return event.charCode >= 48 && event.charCode <= 57" -->
+
+				<!--p id="adjuster1">
+				<img src="http://i.imgur.com/yOadS1c.png" id="minus1" width="20" height="20" class="minus"/>
+				<input id="qty1" type="text" value="1" class="qty" style="width: 26px;"/>
+				<img id="add1" src="http://i.imgur.com/98cvZnj.png" width="20" height="20" class="add"/>
+				</p-->
+				
+    <!--p>
+        <img src="http://i.imgur.com/yOadS1c.png" id="minus2" width="20" height="20" class="minus"/>
+        <input id="qty2" type="text" value="1" class="qty" style="width: 26px;"/>
+        <img id="add2" src="http://i.imgur.com/98cvZnj.png" width="20" height="20" class="add"/>
+    </p-->
